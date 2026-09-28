@@ -17,5 +17,5 @@ same_pixels = zoomsens(SCOPE_FOV, FOV, aspect)
 
 print(f'FOV {FOV}, {WIDTH}x{HEIGHT} (aspect {aspect:.4f})')
 print(f'zoom_sensitivity_ratio {same_feel:.15f}   // same feel (crosshair)')
-print(f'zoom_sensitivity_ratio {same_degrees:.15f}   // same degrees (equal cm/360)')
 print(f'zoom_sensitivity_ratio {same_pixels:.15f}   // same pixels (screen edge)')
+print(f'zoom_sensitivity_ratio {same_degrees:.15f}   // same degrees (equal cm/360)')
